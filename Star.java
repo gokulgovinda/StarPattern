@@ -47,3 +47,24 @@ int n=4;
 	 System.out.println();
 	 
 	 }
+
+	
+// 	Character pattern
+	A
+	BC
+	DEF
+	GHIJ
+	
+int n=4;
+char ch='A';
+// 	outer loop
+	for(int line =1;line<=n; line++){
+		for(int chars=1;chars<=line; chars++){
+			System.out.print(ch);
+			ch++;
+		}
+		System.out.println();
+	}
+}
+
+			
